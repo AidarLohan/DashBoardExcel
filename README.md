@@ -2,7 +2,7 @@
  DataProject: Dashboard & Análisis de Datos
  
 📌 Overview
-	Este informe permite analizar a una población de 3000 usuarios en función de sus características de salud (como condiciones médicas y hábito de fumar), sus métricas físicas (edad, género, altura), así como su actividad física (tipo de entrenamiento, calorías quemadas, pulsaciones, duración, hidratación y sueño).
+	Este informe permite analizar a una población de 2000 usuarios en función de sus características de salud (como condiciones médicas y hábito de fumar), sus métricas físicas (edad, género, altura), así como su actividad física (tipo de entrenamiento, calorías quemadas, pulsaciones, duración, hidratación y sueño).
 
 	Está diseñado para ofrecer una visión general del estado físico y los hábitos de actividad de los usuarios, con capacidad de segmentar por múltiples filtros interactivos.
 
@@ -13,7 +13,7 @@
 	La muestra se compone de los siguientes campos para cada usuario y cada día de actividad:
 	Información demográfica
 		participant_id: Identificador único de los usuarios
-		age: edad de los participantes (18-65 años)
+		age: edad de los participantes (18-64 años)
 		gender: Género (M/F/Other)
 		height_cm: Altura en mm 
 		weight_kg: Peso en Hectagramos
@@ -88,4 +88,4 @@
 Jija Taher
 
 https://www.kaggle.com/datasets/jijagallery/fitlife-health-and-fitness-tracking-dataset
-	
+Originalmente el dataset tenía los datos de 3000 usuarios. Por cuestiones de gestión de archivos se eliminaron los usuarios con id del 2001 al 3000	
